@@ -1,3 +1,11 @@
 {
-  "name": "qdxinrui/phalapi-pay"
+    "name": "qdxinrui/phalapi-pay",
+    "description": "test123",
+    "authors": [
+        {
+            "name": "xinrui",
+            "email": "tangxinzhang@126.com"
+        }
+    ],
+    "require": {}
 }
