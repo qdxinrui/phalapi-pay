@@ -1,6 +1,6 @@
 <?php
 namespace Qdxinrui\payment\lib;
-class PayEngineAliPay extends BasePayment
+class AliPayment extends BasePayment
 {
     public function __construct($config) {
         echo 'ali';
