@@ -7,6 +7,7 @@ use Qdxinrui\payment\lib\Wechat\implement\WxPayOrderQuery;
 use Qdxinrui\payment\lib\Wechat\implement\WxPayRefund;
 use Qdxinrui\payment\lib\Wechat\implement\WxPayRefundQuery;
 use Qdxinrui\payment\lib\Wechat\implement\WxPayResults;
+use Qdxinrui\payment\lib\Wechat\implement\WxPayUnifiedOrder;
 use Qdxinrui\payment\lib\Wechat\WxPayApi;
 use Qdxinrui\payment\lib\Wechat\WxPayConfig;
 use Qdxinrui\payment\lib\Wechat\WxPayException;

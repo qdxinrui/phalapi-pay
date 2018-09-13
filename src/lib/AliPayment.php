@@ -296,6 +296,19 @@ class AliPayment extends BasePayment
     }
 
     /**
+     * @param $appid
+     * @param $pid
+     * @return boolean
+     */
+    public function check_account($appid,$pid)
+    {
+        if($appid == $this->aopClient->appId &&  $this->sellerId == $pid)
+        {
+            return true;
+        }
+        return false;
+    }
+    /**
      * @param AlipayBase $request
      *
      * @return array
