@@ -26,6 +26,7 @@ class AliPayment extends BasePayment
         $this->notifyUrl = trim($config['notifyUrl']);
         $this->aopClient = new AopClient();
         $this->aopClient->appId = trim($config['appId']) ;
+        $this->aopClient->signType = 'RSA2';
         $this->aopClient->rsaPrivateKeyFilePath = $sslPath . trim($config['sslName']);
         $this->aopClient->alipayPublicKey       = $sslPath . trim($config['publicKey']);
         $config['mchId'] && $this->sellerId = $config['mchId'];
